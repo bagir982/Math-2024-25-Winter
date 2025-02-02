@@ -40,3 +40,39 @@
 
 14. $ \int x e^x \, dx = (x - 1) e^x $  
     Explanation: Use integration by parts with $ u = x $ and $ dv = e^x \, dx $.
+### **1. Integrate $f(x) = 2x + 1$ over $[0, \pi]$**
+$ \int_0^\pi (2x + 1) \, dx = 13.01 $
+
+---
+
+### **2. Integrate $g(x) = x^2$ over $[0, \pi]$**
+$ \int_0^\pi x^2 \, dx = 10.34 $
+
+---
+
+### **3. Calculate the area of the region bounded by $x = 1$, $x = 2$, $y = 0$, and $y = x^2 + 1$**
+$ \int_1^2 (x^2 + 1) \, dx = \frac{10}{3} \approx 3.33 $
+
+---
+
+### **4. Calculate the area under the sine curve over $[0, \pi]$**
+$ \int_0^\pi \sin(x) \, dx = 2 $
+
+---
+
+### **5. Calculate the length of the sine curve over $[0, \pi]$**
+The curve length integral is:
+
+$ L = \int_0^\pi \sqrt{1 + \cos^2(x)} \, dx $
+
+This integral cannot be expressed in a simple closed form but can be evaluated numerically or visualized in GeoGebra.
+
+---
+
+### **6. Calculate the distance traveled by the particle for $x(t) = 3t^2 - 6t + 1$ over $t \in [0, 2]$**
+
+1. **Find the velocity:**  
+   $ V(t) = \frac{dx(t)}{dt} = 6t - 6 $
+
+2. **Calculate the distance:**  
+   $ \text{Distance} = \int_0^2 |V(t)| \, dt = 6 $
